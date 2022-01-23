@@ -1,0 +1,24 @@
+public class Fruits {
+    private int amount;
+    private float weight;
+
+    public Fruits (float weight) {
+        this.weight = weight;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public float getWeight() {
+        return weight;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
+    public void setWeight(float weight) {
+        this.weight = weight;
+    }
+}
